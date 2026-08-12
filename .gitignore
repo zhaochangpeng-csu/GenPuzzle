@@ -1,0 +1,32 @@
+﻿# Python/cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets
+.env
+*.env
+
+# Large benchmark assets are hosted on Hugging Face
+/datasets/
+/runs/
+/.cache/
+
+# Generated reports and logs
+*.log
+*.tmp
+validation_summary.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
